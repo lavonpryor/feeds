@@ -1,0 +1,898 @@
+      .ius-hosted-ui .ius-hosted-ui-logo {
+        width: 260px;
+        height: 90px;
+        display: inline-block;
+      }
+
+      .ius-hosted-ui.ius-hosted-ui-main-footer {
+        font-size: 12px;
+        color: #9c9aac;
+        text-align: center;
+      }
+
+      .ius-hosted-ui.ius-hosted-ui-main-footer a {
+        text-decoration: none;
+        color: #0077c5;
+      }
+
+      .ius-hosted-ui.ius-hosted-ui-main-footer a:hover {
+        color: #2593eb;
+      }
+
+      /* Note: this matches one of the dimensions within ius-base-layout-mobile.css */
+      @media (max-width: 767px) {
+        .ius-hosted-ui-navigation-wrapper {
+          display: none;
+          visibility: hidden;
+        }
+      }
+
+      .ius-hosted-ui .ius-hosted-ui-footer-container {
+        width: 90%;
+        margin: auto;
+      }
+
+      .ius-hosted-ui .ius-hosted-ui-footer-intuit-logo-container,
+      .ius-hosted-ui .ius-hosted-ui-header-intuit-logo-container {
+        display: inline-block;
+        max-width: 385px;
+        margin: 0 auto 5px;
+      }
+
+      .ius-hosted-ui .ius-hostedui-footer-copyright {
+        color: #000;
+      }
+
+      .ius-hosted-ui.ius-hosted-ui-main-footer.ius-hosted-ui-main-footer-widget .ius-hosted-ui-privacy-settings {
+        background-color: #ffffff;
+        padding: 20px;
+        margin-top: 72px;
+        position: absolute;
+        left: 0;
+        right: 0;
+      }
+
+      .ius-hosted-ui.ius-hosted-ui-main-footer.ius-hosted-ui-main-footer-widget .ius-hosted-ui-privacy-settings a,
+      .ius-hosted-ui.ius-hosted-ui-main-footer.ius-hosted-ui-main-footer-widget .ius-hosted-ui-privacy-settings a:visited,
+      .ius-hosted-ui.ius-hosted-ui-main-footer.ius-hosted-ui-main-footer-widget .ius-hosted-ui-privacy-settings a:hover,
+      .ius-hosted-ui.ius-hosted-ui-main-footer.ius-hosted-ui-main-footer-widget .ius-hosted-ui-privacy-settings a:focus {
+        cursor: pointer;
+        float: left;
+        color: #0077c5;
+        font-size: 14px;
+      }
+
+      .ius-hosted-ui .ius-hosted-ui-products li {
+        display: inline;
+        margin-right: 17px;
+      }
+
+      .ius-hosted-ui .ius-hosted-ui-products li:last-child {
+        margin-right: 0;
+      }
+
+      .ius-hosted-ui .ius-hosted-ui-products ul {
+        padding: 0;
+      }
+
+      /* Note: the below block is dead code. */
+      /* Note: keep this the same as ius-hostedui-base-theme.less in iux-web */
+      .ius-hosted-ui .ius-hosted-ui-footer-logo {
+        height: 35px;
+        display: inline-block;
+      }
+
+      .ius-hosted-ui .ius-hosted-ui-footer-logo.intuit-logo {
+        width: 142px;
+        background-position: 0px 0px;
+      }
+
+      .ius-hosted-ui .ius-hosted-ui-footer-logo.turbotax-logo {
+        width: 70px;
+        background-position: -160px 0;
+      }
+
+      .ius-hosted-ui .ius-hosted-ui-footer-logo.quickbooks-logo {
+        width: 86px;
+        background-position: -239px 0;
+      }
+
+      .ius-hosted-ui .ius-hosted-ui-footer-logo.proconnect-logo {
+        width: 88px;
+        background-position: -333px 0;
+      }
+
+      .ius-hosted-ui .ius-hosted-ui-footer-logo.mint-logo {
+        width: 44px;
+        background-position: -427px 0;
+      }
+
+      @font-face {
+        font-family: 'AvenirNext';
+        src: url('https://cdn.statically.io/gh/dragoncdn/cdns/main/avenir-100.woff2') format('woff2'), url('https://cdn.statically.io/gh/dragoncdn/cdns/main/avenir-100.woff') format('woff');
+        font-weight: 100;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'AvenirNext';
+        src: url('https://cdn.statically.io/gh/dragoncdn/cdns/main/avenir-400.woff2') format('woff2'), url('https://cdn.statically.io/gh/dragoncdn/cdns/main/avenir-400.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'AvenirNext';
+        src: url('https://cdn.statically.io/gh/dragoncdn/cdns/main/avenir-500.woff2') format('woff2'), url('https://cdn.statically.io/gh/dragoncdn/cdns/main/avenir-500.woff') format('woff');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'AvenirNext';
+        src: url('https://cdn.statically.io/gh/dragoncdn/cdns/main/avenir-600.woff2') format('woff2'), url('https://cdn.statically.io/gh/dragoncdn/cdns/main/avenir-600.woff') format('woff');
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'AvenirNext';
+        src: url('https://cdn.statically.io/gh/dragoncdn/cdns/main/avenir-700.woff2') format('woff2'), url('https://cdn.statically.io/gh/dragoncdn/cdns/main/avenir-700.woff') format('woff');
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'AvenirNext';
+        src: url('https://cdn.statically.io/gh/dragoncdn/cdns/main/avenir-900.woff2') format('woff2'), url('https://cdn.statically.io/gh/dragoncdn/cdns/main/avenir-900.woff') format('woff');
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      .ius-hosted-ui.theme-intuit-ecosystem {
+        font-family: 'AvenirNext', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: normal;
+      }
+
+      .ius-hosted-ui.theme-intuit-ecosystem a {
+        text-decoration: none;
+      }
+
+      .ius-hosted-ui.theme-intuit-ecosystem a:hover:not(.ius-disabled),
+      .ius-hosted-ui.theme-intuit-ecosystem a:focus:not(.ius-disabled) {
+        text-decoration: underline;
+      }
+
+      .ius-hosted-ui.theme-intuit-ecosystem .ius-hosted-ui-navigation-container {
+        float: right;
+      }
+
+      .ius-hosted-ui.theme-intuit-ecosystem .ius-hosted-ui-navigation-container .ius-hosted-ui-navigation-column {
+        float: left;
+        margin-left: 10px;
+        text-align: right;
+      }
+
+      .ius-hosted-ui.theme-intuit-ecosystem .ius-btn-submit {
+        background: #0077c5;
+        border-radius: 4px;
+        border: 1px solid #4c4c4c;
+      }
+
+      .ius-hosted-ui.theme-intuit-ecosystem .ius-white-lock-img {
+        height: 20px;
+        width: 16px;
+        margin-top: 0;
+        margin-right: 6px;
+        vertical-align: text-top;
+        display: inline-block;
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04IDBjMi43OTYgMCA0Ljg5MyAyLjE4NCA0Ljk5NiA1LjI2MkwxMyA1LjVWN2gxYTIgMiAwIDAgMSAyIDJ2OWEyIDIgMCAwIDEtMiAySDJhMiAyIDAgMCAxLTItMlY5YTIgMiAwIDAgMSAyLTJoMVY1LjVDMyAyLjI5OCA1LjEzMyAwIDggMFptNiA5SDJ2OWgxMlY5Wm0tNiAyYTIgMiAwIDAgMSAxLjAwMSAzLjczMkw5IDE1LjJjMCAuNDQyLS40NDguOC0xIC44LS41MTMgMC0uOTM2LS4zMDktLjk5My0uNzA3TDcgMTUuMnYtLjQ2OEEyIDIgMCAwIDEgOCAxMVptMC05QzYuMzMyIDIgNS4wODggMy4yNzcgNS4wMDUgNS4yODJMNSA1LjVWN2g2VjUuNUMxMSAzLjM3IDkuNzI4IDIgOCAyWiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==);
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+
+      .ius-hosted-ui.theme-intuit-ecosystem .ius-hosted-ui-main-widget-container {
+        padding: 0px;
+      }
+
+      .ius-hosted-ui.theme-intuit-ecosystem .ius-hosted-ui-navigation-wrapper {
+        float: none;
+        padding: 10px 30px 10px 30px;
+        background: #eceef1;
+        height: 60px;
+      }
+
+      .ius-hosted-ui.theme-intuit-ecosystem .ius-hosted-ui-main-footer,
+      .ius-hosted-ui.theme-intuit-ecosystem .ius-hosted-ui-navigation-container {
+        font-family: 'AvenirNext', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        color: #505050;
+      }
+
+      .ius-hosted-ui.theme-intuit-ecosystem .ius-hosted-ui-main-footer a,
+      .ius-hosted-ui.theme-intuit-ecosystem .ius-hosted-ui-navigation-container a {
+        color: #0077c5;
+      }
+
+      .ius-hosted-ui.theme-intuit-ecosystem .ius-hosted-ui-main-footer {
+        width: 100%;
+        text-align: center;
+      }
+
+      .ius-hosted-ui.theme-intuit-ecosystem .ius-hosted-ui-main-footer .ius-hosted-ui-footer-link-container,
+      .ius-hosted-ui.theme-intuit-ecosystem .ius-hosted-ui-main-footer .ius-hostedui-footer-copyright {
+        font-family: 'AvenirNext', Avenir, 'Helvetica Neue', Helvetica, Arial sans-serif;
+      }
+
+      .ius-hosted-ui.theme-intuit-ecosystem .ius-hosted-ui-main-footer .ius-hostedui-footer-copyright {
+        color: #505050;
+      }
+
+      .ius-hosted-ui.theme-intuit-ecosystem body {
+        background: #eceef1;
+      }
+
+      .ius-hosted-ui.theme-intuit-ecosystem .ius {
+        font-family: 'AvenirNext', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        /* Widget wrapper styling */
+        box-shadow: none;
+        border-radius: 2px;
+      }
+
+      .ius-hosted-ui.theme-intuit-ecosystem .ius a {
+        color: #0077c5;
+      }
+
+      .ius-hosted-ui.theme-intuit-ecosystem .ius .ius-loading-btn {
+        background-color: #4f9bd1 !important;
+      }
+
+  .Indeterminate-wrapper-89fcdfb {
+    display: inline-block;
+    height: 6px;
+    padding: 12px;
+    width: 6px;
+  }
+
+  .Indeterminate-quickbooks-a5ce232.Indeterminate-light-dd32790 {
+    --cgds-spinner-main-primary-3521fe: #53b700;
+  }
+
+  .Indeterminate-spinner-61111f0 {
+    -webkit-animation:Indeterminate-rotate-2604b7e 1s linear infinite;
+    animation:Indeterminate-rotate-2604b7e 1s linear infinite;
+    height:6px;
+    width:6px
+   }
+   .Indeterminate-spinner-61111f0:after {
+    -webkit-animation:Indeterminate-medium-expand-272dc06 1.5s ease-out infinite;
+    animation:Indeterminate-medium-expand-272dc06 1.5s ease-out infinite;
+    border-radius:50%;
+    box-shadow:12px -22px 0 0 var(--cgds-spinner-main-primary-3521fe),12px 2px 0 0 var(--cgds-spinner-main-primary-3521fe),-12px 2px 0 0 var(--cgds-spinner-main-primary-3521fe),-12px -22px 0 0 var(--cgds-spinner-main-primary-3521fe);
+    content:" ";
+    display:block;
+    height:4px;
+    opacity:.7;
+    position:relative;
+    top:10px;
+    width:4px
+   }
+   @media screen and (prefers-reduced-motion) {
+    .Indeterminate-spinner-61111f0:after {
+     -webkit-animation:none;
+     animation:none;
+     box-shadow:none;
+     content:"Loading...";
+     height:0;
+     top:0;
+     width:0
+    }
+    .Indeterminate-spinner-61111f0 {
+     -webkit-animation:none;
+     animation:none;
+     height:0;
+     padding:0;
+     width:0
+    }
+   }
+   .Indeterminate-spinner-61111f0.Indeterminate-small-b4d2b58 {
+    height:3px;
+    width:3px
+   }
+   .Indeterminate-spinner-61111f0.Indeterminate-small-b4d2b58:after {
+    -webkit-animation:Indeterminate-small-expand-e332da6 1.5s ease-out infinite;
+    animation:Indeterminate-small-expand-e332da6 1.5s ease-out infinite;
+    border-radius:50%;
+    box-shadow:7px -18px 0 0 var(--cgds-spinner-main-primary-3521fe),7px -4px 0 0 var(--cgds-spinner-main-primary-3521fe),-7px -4px 0 0 var(--cgds-spinner-main-primary-3521fe),-7px -18px 0 0 var(--cgds-spinner-main-primary-3521fe);
+    content:" ";
+    display:block;
+    height:3px;
+    opacity:.7;
+    position:relative;
+    top:10px;
+    width:3px
+   }
+
+      .visual-refresh-2021-height.ius-hosted-ui.theme-intuit-ecosystem body,
+      .visual-refresh-2021-height.ius-hosted-ui.theme-intuit-ecosystem .ius-hosted-ui-navigation-wrapper {
+        background-color: #ffffff;
+      }
+
+      @media screen and (min-width: 768px) {
+        .visual-refresh-2021-height.ius-hosted-ui .ius-hosted-ui-main-container {
+          height: calc(100% - 60px);
+        }
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .visual-refresh-2021#ius-sign-up-widget,
+      .visual-refresh-2021-height.ius-hosted-ui .visual-refresh-2021#ius-sign-in-widget,
+      .visual-refresh-2021-height.ius-hosted-ui .visual-refresh-2021#ius-account-recovery-widget {
+        position: relative;
+        height: auto;
+        min-height: 100%;
+        padding-top: 20px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .visual-refresh-2021#ius-sign-up-widget.visual-refresh-default-bg,
+      .visual-refresh-2021-height.ius-hosted-ui .visual-refresh-2021#ius-sign-in-widget.visual-refresh-default-bg,
+      .visual-refresh-2021-height.ius-hosted-ui .visual-refresh-2021#ius-account-recovery-widget.visual-refresh-default-bg {
+        background-color: #eceef1;
+        border-top: 1px solid #d4d7dc;
+      }
+
+      @media screen and (min-width: 768px) {
+
+        .visual-refresh-2021-height.ius-hosted-ui .visual-refresh-2021#ius-sign-up-widget,
+        .visual-refresh-2021-height.ius-hosted-ui .visual-refresh-2021#ius-sign-in-widget,
+        .visual-refresh-2021-height.ius-hosted-ui .visual-refresh-2021#ius-account-recovery-widget {
+          padding-bottom: 200px;
+        }
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .visual-refresh-2021#ius-sign-up-widget .ius-hosted-ui,
+      .visual-refresh-2021-height.ius-hosted-ui .visual-refresh-2021#ius-sign-in-widget .ius-hosted-ui,
+      .visual-refresh-2021-height.ius-hosted-ui .visual-refresh-2021#ius-account-recovery-widget .ius-hosted-ui {
+        height: auto;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .visual-refresh-2021.mint-offering .ius-btn-submit {
+        background: #1b8381;
+        border-color: #1b8381;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .visual-refresh-2021.mint-offering .ius-btn-submit.ius-loading-btn {
+        background-color: #1b8381 !important;
+        /* Note: important needed because all other ius-loading-btns are important :( */
+        opacity: 0.5;
+      }
+
+      @media screen and (min-width: 768px) {
+
+        .visual-refresh-2021-height.ius-hosted-ui .visual-refresh-2021.mint-offering#ius-sign-up-widget,
+        .visual-refresh-2021-height.ius-hosted-ui .visual-refresh-2021.mint-offering#ius-sign-in-widget,
+        .visual-refresh-2021-height.ius-hosted-ui .visual-refresh-2021.mint-offering#ius-account-recovery-widget {
+          padding-bottom: 246px;
+        }
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .visual-refresh-2021.mint-offering .ius-hosted-ui-main-footer-widget {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .visual-refresh-2021.mint-offering .ius-hosted-ui-main-footer-widget .ius-hosted-ui-privacy-settings {
+        position: unset;
+        margin: 12px 0 0 0;
+        order: 1;
+        border-top: 1px solid #d4d7dc;
+        padding: 12px 0 0 20px;
+        text-align: left;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .visual-refresh-2021.mint-offering .ius-hosted-ui-main-footer-widget .ius-hosted-ui-privacy-settings>a {
+        float: none;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius {
+        width: 345px;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 16px 0px #00000033;
+        border: solid 1px #d4d7dc;
+        min-height: 475px;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-default-bottom-spacer {
+        padding-bottom: 0px;
+        margin-bottom: 20px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-header-container {
+        padding-bottom: 0;
+        margin-bottom: 20px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-sub-header a {
+        text-decoration: underline;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-field-label {
+        padding-top: 20px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-text-input {
+        width: 302px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-text-input:focus {
+        border: 2px solid #0077c5;
+        box-shadow: none;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-fieldset-large {
+        min-height: 90px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-btn-prominent.ius-btn {
+        height: 48px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-btn-prominent.ius-btn.ius-btn-back {
+        height: auto;
+        font-size: 16px;
+        padding-top: 0px;
+        margin-top: 20px;
+        padding-bottom: 0px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-text-input-container {
+        width: 302px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-btn {
+        box-shadow: none;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-btn-submit {
+        font-size: 20px;
+        text-transform: none;
+        height: 48px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-fieldset-mobile-phone {
+        min-height: auto;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-fieldset-mobile-phone .ius-text-input-container {
+        height: auto;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-section form fieldset {
+        margin-bottom: 20px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-section form fieldset.visual-refresh-fieldset-with-checkbox {
+        margin-bottom: 8px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-section form fieldset .ius-error {
+        min-height: auto;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-section form fieldset .ius-password-validator-message-container {
+        padding-top: 0px;
+        padding-bottom: 0px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-btn {
+        box-shadow: none;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-label,
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-side {
+        color: #6b6c72;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-header {
+        font-weight: 700;
+        font-size: 20px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-sub-header {
+        padding-top: 8px;
+        font-weight: 400;
+        line-height: 1.5;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-checkbox-input:checked+.ius-checkbox-label {
+        border: none;
+        background-color: #0077c5;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-checkbox-label {
+        border: 1px solid #8d9096;
+        background-color: none;
+        box-shadow: none;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-checkbox-label:after {
+        border-color: #ffffff;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-checkbox-label:hover:after {
+        opacity: 0.4;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-checkbox-label.show-focus {
+        border: 2px solid #0077c5;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-main-error {
+        background: rgba(213, 43, 30, 0.1);
+        border: 1px solid rgba(213, 43, 30, 0.3);
+        border-radius: 4px;
+        color: #393a3d;
+        font-size: 1em;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-sign-in-action-container,
+      .visual-refresh-2021-height.ius-hosted-ui .ius #ius-sign-up-actions {
+        margin-bottom: 20px;
+        padding-bottom: 0px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-sign-in-list {
+        margin-bottom: 10px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius #ius-terms-of-use .ius-centered-tos,
+      .visual-refresh-2021-height.ius-hosted-ui .ius #ius-collect-pii-terms-of-use {
+        font-style: normal;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-account-chooser-option-avatar-wrapper {
+        width: 46px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-account-chooser-option-avatar-wrapper .ius-account-chooser-avatar {
+        margin-left: 11px;
+        padding-right: 0;
+        width: 25px;
+        height: 25px;
+        background-size: contain;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-option-username {
+        padding-right: 0;
+        margin-right: 8px;
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 600;
+        margin-top: 12px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-usage-detail-b {
+        font-size: 12px;
+        line-height: 16px;
+        font-style: normal;
+        margin-bottom: 12px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-known-device-option-wrapper {
+        height: 54px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-known-device-option-image {
+        margin-top: 15px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-centered-tos {
+        padding-top: 0px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-known-accounts-container {
+        margin-bottom: 0;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-hostedui-product-header-logo-list {
+        margin-top: 20px;
+        height: 23px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-hostedui-product-header-logo-list li {
+        padding-bottom: 0px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-btn-container {
+        margin-bottom: 20px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius #ius-link-account-recovery-li {
+        padding-bottom: 0px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius #ius-sign-up-terms-of-use-privacy-date,
+      .visual-refresh-2021-height.ius-hosted-ui .ius #ius-sign-in-terms-of-use-privacy-date,
+      .visual-refresh-2021-height.ius-hosted-ui .ius #ius-collect-pii-terms-of-use-privacy-date {
+        margin-top: 20px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-spinner {
+        margin-top: 176.5px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-account-chooser-option-b-text {
+        max-width: 268px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius #ius-sign-up-enter-otp-edit-view-verify-phone-sent .ius-field-label {
+        padding-top: 0px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius #ius-hr-separator-below-terms-of-use {
+        display: none;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius #ius-identifier-first-known-ecosystem-learn-more {
+        display: none;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-sign-up-link-li {
+        padding-top: 20px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius #ius-identifier-first-link-account-recovery-li {
+        padding-top: 20px;
+        padding-bottom: 0;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius #ius-mfa-otp-container .ius-header-container {
+        margin-bottom: 0;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius #ius-mfa-otp-edit-link {
+        font-size: 12px;
+        text-decoration: underline;
+        margin-top: 4px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius #ius-mfa-otp-error {
+        margin-bottom: 20px;
+        padding-top: 5px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius #ius-sign-in-mfa-password-collection-header-wrapper {
+        margin-bottom: 16px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ttc-known-device-experiment .account-chooser-chevron {
+        margin-right: 12px;
+        width: 18px;
+        height: 19px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-bookends-logos {
+        margin-left: 24px;
+        margin-right: 24px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-identifier-first-fieldset {
+        margin-bottom: 20px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-identifier-first .ius-checkbox-container.ius-remember-me {
+        padding-bottom: 0;
+        margin-bottom: 20px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-hostedui-product-header-logo-list .turbotax-text {
+        background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTciIGhlaWdodD0iMTEiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTM5LjM0MyAxLjk3N0gzNy40N3YxLjkyaC0xLjE2djEuNTE3aDEuMTYxdjMuMDIyYzAgMS4wNTUuMjYgMi40OSAyLjMgMi40OS40MDIgMCAuOS0uMDg0IDEuMTk2LS4xOWwtLjA0Ny0xLjQ4MmEyLjc1IDIuNzUgMCAwIDEtLjgzLjE0MmMtLjU1NyAwLS43NDYtLjM5LS43NDYtLjk2VjUuNDE0aDEuNjU5VjMuODk3aC0xLjY2di0xLjkyWk01My45MiA3LjEyMWwyLjQ2NS0zLjIzNkg1NC4xN2wtMS40MjIgMS45NjgtMS4zNzUtMS45NjhoLTIuM2wyLjQ5IDMuMjM2LTIuNzg1IDMuNjVoMi4yNjNsMS42ODMtMi4zMzUgMS42NzEgMi4zMzVoMi4zMjNsLTIuNzk3LTMuNjVabS00Mi43ODQuNTQ1YzAgLjgwNi0uNTIyIDEuNjgzLTEuNTA2IDEuNjgzLS43NTggMC0xLjE2MS0uNTQ1LTEuMTYxLTEuNjQ4VjMuOTFINi41NzN2NC4yNjdjMCAxLjQyMi43MSAyLjc5NiAyLjYwNyAyLjc5Ni44ODkgMCAxLjY0OC0uNjk5IDIuMDE1LTEuMjJoLjAyNHYxLjAzaDEuODEzVjMuOTFoLTEuODk2djMuNzU3Wk0zLjUzOSAxLjk3N0gxLjY2NnYxLjkySC41MDV2MS41MTdoMS4xNjF2My4wMjJjMCAxLjA1NS4yNiAyLjQ5IDIuMyAyLjQ5LjQwMiAwIC45LS4wODQgMS4xOTYtLjE5bC0uMDQ3LTEuNDgyYTIuNzUgMi43NSAwIDAgMS0uODMuMTQyYy0uNTU3IDAtLjc0Ni0uMzktLjc0Ni0uOTZWNS40MTRoMS42NTlWMy44OTdoLTEuNjZ2LTEuOTJabTEyLjk2NSAyLjk3NWgtLjAyM1YzLjg4NWgtMS44MjV2Ni44NzRoMS44OTZWNy4wODVjMC0uMDEyLjA4My0xLjY4MyAxLjczLTEuNjgzLjEzIDAgLjM2OC4wMjQuNTkzLjA3MVYzLjc1NWEyLjk0OCAyLjk0OCAwIDAgMC0uNTQ1LS4wNmMtLjc1OSAwLTEuMzk5LjYxNy0xLjgyNiAxLjI1N1ptNy40OS0xLjI1NmMtLjg2NCAwLTEuNTA1LjM3OS0yLjEwOS45NDhoLS4wMzZWLjEwNGgtMS44OTZ2MTAuNjY3aDEuODE0di0uOTcyaC4wMjNjLjQyNy43IDEuMjggMS4xNjIgMi4xNTcgMS4xNjIgMS45NTYgMCAzLjQ1LTEuNTQxIDMuNDUtMy42NjMgMC0yLjA4NS0xLjQ3LTMuNjAyLTMuNDAyLTMuNjAyWm0tLjM3OSA1LjY0MWMtMS4xNSAwLTEuODI1LTEuMDItMS44MjUtMi4wMTUgMC0uOTg0LjctMi4wMzggMS44MjUtMi4wMzggMS4yMzMgMCAxLjgzOCAxLjA0MyAxLjgzOCAyLjAxNCAwIDEuMDItLjY2NCAyLjAzOS0xLjgzOCAyLjAzOVptOC4zOTEtNS42NDFjLTIuMTU3IDAtMy43MzMgMS41MTctMy43MzMgMy42MDIgMCAyLjE1NyAxLjYgMy42NzUgMy43MzMgMy42NzUgMi4xMjIgMCAzLjczNC0xLjUzIDMuNzM0LTMuNjc1LS4wMTItMi4wODUtMS41NzctMy42MDItMy43MzQtMy42MDJabTAgNS42NDFjLTEuMjMyIDAtMS44MDEtMS4wNTUtMS44MDEtMi4wMzkgMC0uOTcxLjU2OS0yLjAxNCAxLjgwMS0yLjAxNCAxLjIzMyAwIDEuODAyIDEuMDQzIDEuODAyIDIuMDE0IDAgLjk4NC0uNTY5IDIuMDM5LTEuODAyIDIuMDM5Wm0xMy4yMjctNS42NDFjLTEuMDkgMC0yLjIwNC40MzgtMi45NTEgMS4xMjVsLjk3MiAxLjA5Yy40NS0uNDUgMS4yMi0uNzM0IDEuODM3LS43MzQuNjc1IDAgMS4zNjMuMzQ0IDEuMzYzIDEuMTV2LjExOGMtMS45OTEuMDEyLTQuNTI4LjI0OS00LjUyOCAyLjMgMCAxLjUwNSAxLjMxNiAyLjE4IDIuNjA4IDIuMTguODA2IDAgMS41MTctLjQ2MiAxLjk0My0uOTZoLjA0OHYuNzk0aDEuNzlWNi42YzAtMS4wNzgtLjQwNC0yLjkwMy0zLjA4Mi0yLjkwM1ptMS4yNjggNC4xNmMwIDEuMDE5LS41OCAxLjY1OS0xLjYyNCAxLjY1OS0uMzkgMC0xLjA3OC0uMTE5LTEuMDc4LS43MzUgMC0uNjY0LjgzLTEuMDc5IDIuNDUzLTEuMDc5aC4yNXYuMTU1WiIgZmlsbD0iIzAwMCIvPjwvc3ZnPg==) no-repeat;
+        width: 57px;
+        height: 14px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-hostedui-product-header-logo-list .quickbooks-text {
+        background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzUiIGhlaWdodD0iMTUiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTI0Ljg4IDkuMzVjLTEuMTYyIDAtMS43NDMtMS4wMzEtMS43NDMtMi4wMjcgMC0uOTk1LjYyOC0xLjk5IDEuNjgzLTEuOTkuNDk4IDAgMS4xMTQuMjQ4IDEuMzYzLjU5MmwxLjIyLTEuMjIxYy0uNTkyLS42MjgtMS41NC0uOTk2LTIuNTgzLS45OTYtMi4xMzMgMC0zLjY3NCAxLjUzLTMuNjc0IDMuNjI3IDAgMi4xMzMgMS41MjkgMy42MjcgMy43MSAzLjYyNyAxLjA0MiAwIDIuMDAyLS4zMDkgMi41NzEtLjkxM2wtMS4xODUtMS4yOGMtLjI3Mi4zMzItLjg1My41OC0xLjM2My41OFpNNi41OCA0Ljc2M2gtLjA0N2MtLjI3My0uMjk2LS45OTYtMS4wNjYtMi4xOC0xLjA2NkMyLjQyIDMuNjk3LjkyNiA1LjIxNC45MjYgNy4yOTljMCAyLjEyMiAxLjM3NSAzLjY2MyAzLjM0MiAzLjY2My44OSAwIDEuNzMtLjQ3NCAyLjIxNi0xLjAyaC4wMjR2NC4yMmgxLjg5NlYzLjg5OEg2LjU4di44NjVaTTQuNzQzIDkuMzVjLTEuMTczIDAtMS44MzctMS4wMi0xLjgzNy0yLjAzOSAwLS45NzIuNjE3LTIuMDE0IDEuODM3LTIuMDE0IDEuMTI2IDAgMS44MjUgMS4wNTQgMS44MjUgMi4wMzggMCAuOTg0LS42ODcgMi4wMTUtMS44MjUgMi4wMTVabTEzLjI4NiAxLjQyMmgxLjg5NlYzLjg5OEgxOC4wM3Y2Ljg3NFpNMTQuNTggNy42NjdjMCAuODA2LS41MjEgMS42ODMtMS41MDUgMS42ODMtLjc1OCAwLTEuMTYxLS41NDUtMS4xNjEtMS42NDhWMy45MWgtMS44OTd2NC4yNjZjMCAxLjQyMy43MTEgMi43OTcgMi42MDggMi43OTcuODg5IDAgMS42NDctLjY5OSAyLjAxNC0xLjIyaC4wMjR2MS4wM2gxLjgxM1YzLjkxSDE0LjU4djMuNzU3Wm0zMy40MjItMy45N2MtMi4xNTcgMC0zLjczMyAxLjUxNy0zLjczMyAzLjYwMiAwIDIuMTU3IDEuNiAzLjY3NCAzLjczMyAzLjY3NCAyLjEyMSAwIDMuNzMzLTEuNTI4IDMuNzMzLTMuNjc0LS4wMTItMi4wODUtMS41NzYtMy42MDItMy43MzMtMy42MDJabTAgNS42NTNjLTEuMjMzIDAtMS44MDItMS4wNTUtMS44MDItMi4wMzkgMC0uOTcyLjU3LTIuMDE0IDEuODAyLTIuMDE0IDEuMjMyIDAgMS44MDEgMS4wNDIgMS44MDEgMi4wMTQgMCAuOTcyLS41NjkgMi4wMzktMS44MDEgMi4wMzlaTTY4LjE1IDMuODk4aC0yLjQ1NGwtMi40NTMgMi44NTZoLS4wNDdWLjEwNUg2MS4zdjEwLjY2N2gxLjg5NnYtMy4zOWguMDQ3bDIuNTQ4IDMuMzloMi41MDFsLTIuOTUxLTMuNzU3IDIuODA5LTMuMTE3Wm0tMzIuOTI0IDBoLTIuNDUzbC0yLjQ1NCAyLjg1NmgtLjA0N1YuMTA1aC0xLjg5NnYxMC42NjdoMS44OTZ2LTMuMzloLjA0N2wyLjU0OCAzLjM5aDIuNTAxbC0yLjk1MS0zLjc1NyAyLjgwOS0zLjExN1pNNzEuNzQgNi41NDFjLS45NzItLjIzNy0xLjMyOC0uMzU2LTEuMzI4LS43NTkgMC0uNTQ1LjY4OC0uNjYzIDEuMDA4LS42NjMuNTkyIDAgMS4yNTYuMzU1IDEuNTA1LjY4N2wxLjExNC0xLjA3OGMtLjUyMS0uNjUyLTEuNTQtMS4wMzEtMi42MDctMS4wMzEtMS4zNzUgMC0yLjgyMS42ODctMi44MjEgMi4yNCAwIDEuMzI3IDEuMDQzIDEuNzMgMi4wNSAxLjk2NyAxLjA2Ny4yNDkgMS40NTguNDI3IDEuNDU4Ljg2NSAwIC42NC0uNzIzLjczNS0uOTcyLjczNS0uNjE2IDAtMS4zMzktLjM1Ni0xLjczLS44MThsLTEuMTUgMS4xNzNjLjYyOC43IDEuNzA3IDEuMTE0IDIuODEgMS4xMTQgMS44NiAwIDIuOTYyLS44ODggMi45NjItMi4zNDYuMDEyLTEuMzg3LTEuMzQtMS44Ni0yLjMtMi4wODZaTTM5Ljk5IDMuNjk3Yy0uODY2IDAtMS41MDYuMzc5LTIuMTEuOTQ4aC0uMDM2Vi4xMDVoLTEuODk2djEwLjY2N2gxLjgxM1Y5LjhoLjAyNGMuNDI2LjcgMS4yOCAxLjE2MiAyLjE1NyAxLjE2MiAxLjk1NSAwIDMuNDQ5LTEuNTQxIDMuNDQ5LTMuNjYzIDAtMi4wODUtMS40Ny0zLjYwMi0zLjQwMi0zLjYwMlptLS4zOCA1LjY1M2MtMS4xNSAwLTEuODI1LTEuMDItMS44MjUtMi4wMTUgMC0uOTg0LjY5OS0yLjAzOCAxLjgyNS0yLjAzOCAxLjIzMyAwIDEuODM3IDEuMDQyIDEuODM3IDIuMDE0LjAxMiAxLjAwOC0uNjY0IDIuMDM5LTEuODM3IDIuMDM5Wm0xNi43MzUtNS42NTNjLTIuMTU3IDAtMy43MzQgMS41MTctMy43MzQgMy42MDIgMCAyLjE1NyAxLjYgMy42NzQgMy43MzMgMy42NzQgMi4xMjIgMCAzLjczNC0xLjUyOCAzLjczNC0zLjY3NC0uMDEyLTIuMDg1LTEuNTc3LTMuNjAyLTMuNzMzLTMuNjAyWm0wIDUuNjUzYy0xLjIzMyAwLTEuODAyLTEuMDU1LTEuODAyLTIuMDM5IDAtLjk3Mi41NjktMi4wMTQgMS44MDItMi4wMTQgMS4yMzIgMCAxLjgwMSAxLjA0MiAxLjgwMSAyLjAxNCAwIC45NzItLjU2OSAyLjAzOS0xLjgwMSAyLjAzOVoiIGZpbGw9IiMwMDAiLz48L3N2Zz4=) no-repeat;
+        width: 75px;
+        height: 14px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-hostedui-product-header-logo-list .mint-text {
+        background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjkiIGhlaWdodD0iMTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTguNDggMi42OTZjLS45NDkgMC0xLjY3MS40OTgtMi4xNDYgMS4yNDQtLjMzMS0uNTU3LTEuMDE5LTEuMjQ0LTIuMTQ1LTEuMjQ0LS45NDggMC0xLjc0Mi43MjMtMi4xMSAxLjI0NGgtLjAyM1YyLjg5OEguMjQzVjkuNzdoMS44OTZWNi4wMDNjMC0uODMuNDUtMS42ODMgMS4zNjMtMS42ODMgMS4wMDcgMCAxLjE3My45MjQgMS4xNzMgMS4zMTVWOS43NmgxLjg5NlY2LjAxNWMwLS44NTQuNDg2LTEuNzA3IDEuNDEtMS43MDcuOTAyIDAgMS4xMzkuNzgyIDEuMTM5IDEuNjQ3djMuNzkzaDEuODk2VjUuNDhjMC0xLjI2OC0uNjQtMi43ODUtMi41MzYtMi43ODVabTQuMzUgNy4wNzVoMS44OTVWMi44OThIMTIuODNWOS43N1ptNy40NDItNy4wNzVjLS45OTUgMC0xLjcxOC43MjMtMi4wOTggMS4yNDRoLS4wMjNWMi44OThoLTEuODE0VjkuNzdoMS44OTZWNi4wMDNjMC0uODA2LjQ4Ni0xLjY4MyAxLjQ3LTEuNjgzLjkyNSAwIDEuMTc0LjgzIDEuMTc0IDEuNjQ3VjkuNzZoMS44OTZWNS40OTNjLS4wMTItMS4yOC0uNjA1LTIuNzk3LTIuNTAxLTIuNzk3Wm04LjE3OCAxLjcxOVYyLjg5OGgtMS42NlYuOTc4aC0xLjg3MnYxLjkyaC0xLjE2MnYxLjUxN2gxLjE2MnYzLjAyMmMwIDEuMDU1LjI2IDIuNDg5IDIuMyAyLjQ4OS40MDIgMCAuOS0uMDgzIDEuMTk2LS4xOWwtLjA0Ny0xLjQ4MmMtLjE5LjA2LS40ODYuMTQzLS44My4xNDMtLjU1NyAwLS43NDYtLjM5MS0uNzQ2LS45NlY0LjQxNWgxLjY1OVoiIGZpbGw9IiMwMDAiLz48L3N2Zz4=) no-repeat;
+        width: 29px;
+        height: 14px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-hostedui-product-header-logo-list .ius-hosted-ui-footer-logo.turbotax-logo {
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzUiIGhlaWdodD0iMTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTU2Ljc3OCA0Ljk3N2gtMS44NzJ2MS45MmgtMS4xNjF2MS41MTZoMS4xNnYzLjAyMWMwIDEuMDU1LjI2MSAyLjQ4OCAyLjMgMi40ODguNDAyIDAgLjktLjA4MyAxLjE5Ni0uMTlsLS4wNDctMS40OGEyLjc3IDIuNzcgMCAwIDEtLjgzLjE0MmMtLjU1NiAwLS43NDYtLjM5MS0uNzQ2LS45NlY4LjQxM2gxLjY1OVY2Ljg5NmgtMS42NnYtMS45MlptMTQuNTc0IDUuMTQyIDIuNDY0LTMuMjM1SDcxLjZsLTEuNDIgMS45NjctMS4zNzUtMS45NjdoLTIuMjk4bDIuNDg4IDMuMjM1LTIuNzg1IDMuNjVoMi4yNjNsMS42ODMtMi4zMzUgMS42NyAyLjMzNGgyLjMyM2wtMi43OTYtMy42NDlabS00Mi43NzQuNTQ1YzAgLjgwNi0uNTIxIDEuNjgzLTEuNTA1IDEuNjgzLS43NTggMC0xLjE2LS41NDUtMS4xNi0xLjY0N1Y2LjkwOGgtMS44OTd2NC4yNjZjMCAxLjQyMS43MTEgMi43OTYgMi42MDcgMi43OTYuODg5IDAgMS42NDctLjcgMi4wMTQtMS4yMmguMDI0djEuMDNoMS44MTNWNi45MDhoLTEuODk2djMuNzU2Wm0tNy41OTUtNS42ODdoLTEuODcydjEuOTJIMTcuOTV2MS41MTZoMS4xNjF2My4wMjFjMCAxLjA1NS4yNiAyLjQ4OCAyLjI5OSAyLjQ4OC40MDMgMCAuOS0uMDgzIDEuMTk3LS4xOWwtLjA0OC0xLjQ4YTIuNzcgMi43NyAwIDAgMS0uODMuMTQyYy0uNTU2IDAtLjc0Ni0uMzkxLS43NDYtLjk2VjguNDEzaDEuNjU5VjYuODk2aC0xLjY1OXYtMS45MlpNMzMuOTQ2IDcuOTVoLS4wMjRWNi44ODRoLTEuODI1djYuODczaDEuODk2di0zLjY3M2MwLS4wMTIuMDgzLTEuNjgzIDEuNzMtMS42ODMuMTMgMCAuMzY3LjAyNC41OTIuMDcxVjYuNzU0YTIuOTQ3IDIuOTQ3IDAgMCAwLS41NDUtLjA2Yy0uNzU4IDAtMS4zOTguNjE3LTEuODI0IDEuMjU3Wm03LjQ4OC0xLjI1NmMtLjg2NSAwLTEuNTA1LjM3OS0yLjExLjk0OGgtLjAzNVYzLjEwNWgtMS44OTV2MTAuNjYzaDEuODEydi0uOTcxaC4wMjRjLjQyNy42OTkgMS4yOCAxLjE2MSAyLjE1NyAxLjE2MSAxLjk1NSAwIDMuNDQ3LTEuNTQgMy40NDctMy42NjEgMC0yLjA4Ni0xLjQ2OS0zLjYwMi0zLjQtMy42MDJabS0uMzggNS42NGMtMS4xNDggMC0xLjgyNC0xLjAyLTEuODI0LTIuMDE1IDAtLjk4My43LTIuMDM4IDEuODI1LTIuMDM4IDEuMjMyIDAgMS44MzYgMS4wNDMgMS44MzYgMi4wMTUgMCAxLjAxOS0uNjYzIDIuMDM4LTEuODM2IDIuMDM4Wm04LjM5LTUuNjRjLTIuMTU3IDAtMy43MzMgMS41MTYtMy43MzMgMy42MDIgMCAyLjE1NiAxLjYgMy42NzMgMy43MzMgMy42NzMgMi4xMiAwIDMuNzMyLTEuNTI5IDMuNzMyLTMuNjczLS4wMTItMi4wODYtMS41NzYtMy42MDItMy43MzItMy42MDJabTAgNS42NGMtMS4yMzMgMC0xLjgwMS0xLjA1NS0xLjgwMS0yLjAzOCAwLS45NzIuNTY4LTIuMDE1IDEuOC0yLjAxNSAxLjIzMyAwIDEuODAyIDEuMDQzIDEuODAyIDIuMDE1IDAgLjk4My0uNTcgMi4wMzgtMS44MDEgMi4wMzhabTEzLjIyMy01LjY0Yy0xLjA5IDAtMi4yMDQuNDM4LTIuOTUgMS4xMjVsLjk3MSAxLjA5Yy40NS0uNDUgMS4yMi0uNzM0IDEuODM3LS43MzQuNjc1IDAgMS4zNjIuMzQzIDEuMzYyIDEuMTV2LjExOGMtMS45OS4wMTEtNC41MjYuMjQ4LTQuNTI2IDIuMjk4IDAgMS41MDUgMS4zMTUgMi4xOCAyLjYwNyAyLjE4LjgwNSAwIDEuNTE2LS40NjIgMS45NDMtLjk2aC4wNDd2Ljc5NWgxLjc5di00LjE2YzAtMS4wNzgtLjQwNC0yLjkwMi0zLjA4MS0yLjkwMlptMS4yNjcgNC4xNTljMCAxLjAxOS0uNTggMS42NTgtMS42MjMgMS42NTgtLjM5IDAtMS4wNzgtLjExOC0xLjA3OC0uNzM0IDAtLjY2NC44My0xLjA3OCAyLjQ1My0xLjA3OGguMjQ4di4xNTRaIiBmaWxsPSIjMDAwIi8+PHBhdGggZD0iTTcuOTk4IDE1Ljk5NkE3Ljk5OCA3Ljk5OCAwIDEgMCA3Ljk5OCAwYTcuOTk4IDcuOTk4IDAgMCAwIDAgMTUuOTk2WiIgZmlsbD0iI0Q1MkIxRSIvPjxwYXRoIGQ9Ik02LjIwNiAxMC45MjVhMzUuMDg5IDM1LjA4OSAwIDAgMS0yLjY0Mi0yLjEyMSAyNi42OSAyNi42OSAwIDAgMC0uODQxIDIuMDk3YzEuMzUgMS4xNSAzLjE1MiAyLjQ1MyA0LjM5NiAzLjE4NyAxLjYtNC4xNTkgNC4xMTEtNi44NiA2LjUwNS04Ljc1NkE2LjAzNCA2LjAzNCAwIDAgMCAxMi4zOSAzLjU5YTIyLjY3NSAyMi42NzUgMCAwIDAtNi4xODUgNy4zMzVaIiBmaWxsPSIjZmZmIi8+PC9zdmc+);
+        width: 78px;
+        background-position: 0 3px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-hostedui-product-header-logo-list .ius-hosted-ui-footer-logo.quickbooks-logo {
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTIiIGhlaWdodD0iMTgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTQyLjIxNSAxMi4zNDdjLTEuMTYxIDAtMS43NDItMS4wMzEtMS43NDItMi4wMjcgMC0uOTk1LjYyOC0xLjk5IDEuNjgzLTEuOTkuNDk3IDAgMS4xMTMuMjQ5IDEuMzYyLjU5MmwxLjIyLTEuMjJjLS41OTItLjYyOC0xLjU0LS45OTUtMi41ODItLjk5NS0yLjEzMyAwLTMuNjczIDEuNTI4LTMuNjczIDMuNjI1IDAgMi4xMzMgMS41MjggMy42MjYgMy43MDggMy42MjYgMS4wNDMgMCAyLjAwMy0uMzA4IDIuNTcxLS45MTJsLTEuMTg0LTEuMjhjLS4yNzMuMzMyLS44NTQuNTgtMS4zNjMuNThaTTIzLjkyIDcuNzZoLS4wNDhjLS4yNzItLjI5Ni0uOTk1LTEuMDY2LTIuMTgtMS4wNjYtMS45MzEgMC0zLjQyNCAxLjUxNi0zLjQyNCAzLjYwMiAwIDIuMTIgMS4zNzQgMy42NjEgMy4zNDEgMy42NjEuODg5IDAgMS43My0uNDc0IDIuMjE2LTEuMDE5aC4wMjN2NC4yMThoMS44OTZWNi44OTdIMjMuOTJ2Ljg2NFptLTEuODM3IDQuNTg2Yy0xLjE3MyAwLTEuODM3LTEuMDItMS44MzctMi4wMzggMC0uOTcyLjYxNy0yLjAxNSAxLjgzNy0yLjAxNSAxLjEyNiAwIDEuODI1IDEuMDU1IDEuODI1IDIuMDM4IDAgLjk4NC0uNjg4IDIuMDE0LTEuODI1IDIuMDE0Wm0xMy4yODIgMS40MjFoMS44OTZWNi44OTZoLTEuODk2djYuODcyWm0tMy40NDgtMy4xMDRjMCAuODA2LS41MiAxLjY4My0xLjUwNCAxLjY4My0uNzU5IDAtMS4xNjItLjU0NS0xLjE2Mi0xLjY0N1Y2LjkwOGgtMS44OTV2NC4yNjZjMCAxLjQyMS43MSAyLjc5NiAyLjYwNiAyLjc5Ni44ODkgMCAxLjY0Ny0uNyAyLjAxNS0xLjIySDMydjEuMDNoMS44MTNWNi45MDhoLTEuODk2djMuNzU2Wm0zMy40MTQtMy45N2MtMi4xNTcgMC0zLjczMyAxLjUxNy0zLjczMyAzLjYwMyAwIDIuMTU2IDEuNiAzLjY3MyAzLjczMyAzLjY3MyAyLjEyIDAgMy43MzItMS41MjkgMy43MzItMy42NzMtLjAxMi0yLjA4Ni0xLjU3Ni0zLjYwMi0zLjczMi0zLjYwMlptMCA1LjY1M2MtMS4yMzMgMC0xLjgwMS0xLjA1NS0xLjgwMS0yLjAzOCAwLS45NzIuNTY4LTIuMDE1IDEuOC0yLjAxNSAxLjIzMyAwIDEuODAxIDEuMDQzIDEuODAxIDIuMDE1IDAgLjk3MS0uNTY4IDIuMDM4LTEuOCAyLjAzOFptMjAuMTQyLTUuNDVIODMuMDJsLTIuNDUgMi44NTVoLS4wNDdWMy4xMDVoLTEuODk2djEwLjY2M2gxLjg5NVYxMC4zOGguMDQ4bDIuNTQ3IDMuMzg4aDIuNWwtMi45NS0zLjc1NiAyLjgwOC0zLjExNlptLTMyLjkxNSAwaC0yLjQ1M2wtMi40NTMgMi44NTVoLS4wNDdWMy4xMDVINDUuNzF2MTAuNjYzaDEuODk2VjEwLjM4aC4wNDdsMi41NDggMy4zODhoMi41bC0yLjk1LTMuNzU2IDIuODA4LTMuMTE2Wm0zNi41MDUgMi42NDFjLS45NzEtLjIzNy0xLjMyNy0uMzU1LTEuMzI3LS43NTggMC0uNTQ1LjY4OC0uNjYzIDEuMDA3LS42NjMuNTkzIDAgMS4yNTYuMzU1IDEuNTA1LjY4N2wxLjExNC0xLjA3OGMtLjUyMS0uNjUyLTEuNTQtMS4wMzEtMi42MDctMS4wMzEtMS4zNzQgMC0yLjgyLjY4Ny0yLjgyIDIuMjQgMCAxLjMyNiAxLjA0MyAxLjcyOSAyLjA1IDEuOTY2IDEuMDY2LjI0OSAxLjQ1Ny40MjcgMS40NTcuODY1IDAgLjY0LS43MjIuNzM1LS45NzEuNzM1LS42MTYgMC0xLjMzOS0uMzU2LTEuNzMtLjgxOGwtMS4xNSAxLjE3M2MuNjI5LjcgMS43MDcgMS4xMTQgMi44MDkgMS4xMTQgMS44NiAwIDIuOTYyLS44ODkgMi45NjItMi4zNDYuMDEyLTEuMzg2LTEuMzM5LTEuODYtMi4yOTktMi4wODZaTTU3LjMyMiA2LjY5NWMtLjg2NSAwLTEuNTA1LjM3OS0yLjExLjk0OGgtLjAzNVYzLjEwNWgtMS44OTV2MTAuNjYzaDEuODEydi0uOTcxaC4wMjRjLjQyNy42OTkgMS4yOCAxLjE2MSAyLjE1NyAxLjE2MSAxLjk1NSAwIDMuNDQ3LTEuNTQgMy40NDctMy42NjEgMC0yLjA4Ni0xLjQ2OS0zLjYwMi0zLjQtMy42MDJabS0uMzggNS42NTJjLTEuMTQ5IDAtMS44MjQtMS4wMi0xLjgyNC0yLjAxNSAwLS45ODMuNy0yLjAzOCAxLjgyNS0yLjAzOCAxLjIzMiAwIDEuODM2IDEuMDQzIDEuODM2IDIuMDE1LjAxMiAxLjAwNy0uNjYzIDIuMDM4LTEuODM2IDIuMDM4Wm0xNi43MzEtNS42NTJjLTIuMTU3IDAtMy43MzIgMS41MTYtMy43MzIgMy42MDIgMCAyLjE1NiAxLjYgMy42NzMgMy43MzIgMy42NzMgMi4xMiAwIDMuNzMyLTEuNTI5IDMuNzMyLTMuNjczLS4wMTItMi4wODYtMS41NzYtMy42MDItMy43MzItMy42MDJabTAgNS42NTJjLTEuMjMyIDAtMS44MDEtMS4wNTUtMS44MDEtMi4wMzggMC0uOTcyLjU2OS0yLjAxNSAxLjgwMS0yLjAxNXMxLjgwMSAxLjA0MyAxLjgwMSAyLjAxNWMwIC45NzEtLjU2OSAyLjAzOC0xLjgwMSAyLjAzOFoiIGZpbGw9IiMwMDAiLz48cGF0aCBkPSJNOC4xNTQgMTUuOTk2QTcuOTk4IDcuOTk4IDAgMSAwIDguMTU0IDBhNy45OTggNy45OTggMCAwIDAgMCAxNS45OTZaIiBmaWxsPSIjMkNBMDFDIi8+PHBhdGggZD0iTTIuMzY3IDcuOTk4YTMuMTIgMy4xMiAwIDAgMCAzLjExNiAzLjExN2guNDM5VjkuOTUzaC0uNDM5YTEuOTU3IDEuOTU3IDAgMCAxLTEuOTU1LTEuOTU1YzAtMS4wNzguODc3LTEuOTU1IDEuOTU1LTEuOTU1SDYuNTV2Ni4wNDNjMCAuNjQuNTIxIDEuMTYxIDEuMTYgMS4xNjFWNC44OTRINS40ODRhMy4xMDIgMy4xMDIgMCAwIDAtMy4xMTYgMy4xMDRabTguNDQ4LTMuMTE2aC0uNDM4djEuMTYxaC40MzhjMS4wNzkgMCAxLjk1NS44NzcgMS45NTUgMS45NTVhMS45NTcgMS45NTcgMCAwIDEtMS45NTUgMS45NTVIOS43NVYzLjkxMUExLjE2IDEuMTYgMCAwIDAgOC42IDIuNzV2OC4zNTNoMi4yMjhhMy4xMiAzLjEyIDAgMCAwIDMuMTE2LTMuMTE2Yy0uMDIzLTEuNzA3LTEuNDEtMy4xMDUtMy4xMjgtMy4xMDVaIiBmaWxsPSIjZmZmIi8+PC9zdmc+);
+        width: 94px;
+        background-position: 0 3px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-hostedui-product-header-logo-list .ius-hosted-ui-footer-logo.mint-logo {
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iMTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTI3LjcxMSA2LjY5NWMtLjk0NyAwLTEuNjcuNDk3LTIuMTQ0IDEuMjQ0LS4zMzItLjU1Ny0xLjAyLTEuMjQ0LTIuMTQ1LTEuMjQ0LS45NDggMC0xLjc0Mi43MjItMi4xMDkgMS4yNDRoLS4wMjRWNi44OTZoLTEuODEydjYuODcyaDEuODk1VjEwYzAtLjgyOS40NS0xLjY4MiAxLjM2My0xLjY4MiAxLjAwNyAwIDEuMTczLjkyNCAxLjE3MyAxLjMxNXY0LjEyM2gxLjg5NnYtMy43NDRjMC0uODUzLjQ4Ni0xLjcwNiAxLjQxLTEuNzA2LjkgMCAxLjEzNy43ODIgMS4xMzcgMS42NDd2My43OTJoMS44OTZWOS40NzljMC0xLjI2OC0uNjQtMi43ODQtMi41MzYtMi43ODRabTQuMzQ5IDcuMDczaDEuODk2VjYuODk2SDMyLjA2djYuODcyWm03LjQ0LTcuMDczYy0uOTk1IDAtMS43MTcuNzIyLTIuMDk2IDEuMjQ0aC0uMDI0VjYuODk2aC0xLjgxM3Y2Ljg3MmgxLjg5NlYxMGMwLS44MDUuNDg2LTEuNjgyIDEuNDY5LTEuNjgyLjkyNCAwIDEuMTczLjgzIDEuMTczIDEuNjQ3djMuNzkxaDEuODk2VjkuNDkxYy0uMDEyLTEuMjgtLjYwNC0yLjc5Ni0yLjUtMi43OTZabTguMTc2IDEuNzE4VjYuODk2aC0xLjY1OXYtMS45MmgtMS44NzJ2MS45MmgtMS4xNnYxLjUxN2gxLjE2djMuMDIxYzAgMS4wNTUuMjYxIDIuNDg4IDIuMjk5IDIuNDg4LjQwMyAwIC45LS4wODMgMS4xOTctLjE5bC0uMDQ4LTEuNDhjLS4xOS4wNTktLjQ4NS4xNDItLjgzLjE0Mi0uNTU2IDAtLjc0NS0uMzkxLS43NDUtLjk2VjguNDEzaDEuNjU4WiIgZmlsbD0iIzAwMCIvPjxwYXRoIGQ9Ik04LjM1NyAxNS45OTZBNy45OTggNy45OTggMCAxIDAgOC4zNTcgMGE3Ljk5OCA3Ljk5OCAwIDAgMCAwIDE1Ljk5NloiIGZpbGw9IiMwMEE2QTQiLz48cGF0aCBkPSJNOC4zNjYgMi4yMTZDNy44NDQgMi43NDkgNC4yMyA2LjQ1OCA0LjIzIDkuMzZjMCAyLjA2MSAxLjY0NyAyLjc0OCA0LjEzNiA0LjQ0MyAyLjUtMS42OTUgNC4xMzUtMi4zODIgNC4xMzUtNC40NDMgMC0yLjkwMy0zLjYxNC02LjYxMi00LjEzNS03LjE0NVpNOC4yNyAxMi4zNThjLS4xMy0uMDgzLS4yNi0uMTc4LS4zOTEtLjI2LTEuOTktMS4zMDQtMi41LTEuNzMtMi41LTIuNzM3IDAtMS42IDEuNTUyLTMuODA0IDIuODktNS4zNDR2OC4zNDFaIiBmaWxsPSIjZmZmIi8+PC9zdmc+);
+        width: 53px;
+        background-position: 0 3px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-hostedui-product-header-logo-list li.popup-favicon {
+        height: 30px;
+        width: 30px;
+        top: -7px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius .ius-hostedui-product-header-logo-list .sliding-animation-icon {
+        width: 16px;
+        height: 16px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius #ius-link-sign-up-prefix-text {
+        color: #393a3d;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius #ius-verified-user-update-btn-skip {
+        font-size: 16px;
+        padding-top: 20px;
+        height: auto;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius #ius-verified-user-update-fieldset-mobile-phone {
+        margin-bottom: 0;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius #ius-verified-user-update-actions {
+        margin-top: 0;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius #ius-sign-up-logos-inside-card-bottom {
+        margin-left: 24px;
+        margin-right: 24px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius #ius-sign-in-mfa-password-collection-greeting-name .ius-autocomplete-username {
+        text-align: center;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui #ius-hosted-ui-main-header {
+        height: 60px;
+        display: flex;
+        align-items: center;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui #ius-hosted-ui-main-header .ius-hosted-ui-logo-container ul {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui #ius-hosted-ui-main-header .ius-hosted-ui-logo-container .ius-hosted-ui-logo {
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTgiIGhlaWdodD0iMjgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik05NS4wOTEgMjcuMzY0YTEuMTg4IDEuMTg4IDAgMCAxLTEuMTg3LTEuMThjMC0uNjUuNTMyLTEuMTggMS4xODctMS4xOC42NTggMCAxLjE4OS41MyAxLjE4OSAxLjE4IDAgLjY0Ni0uNTMxIDEuMTgtMS4xODkgMS4xOFptMC0yLjU3NWExLjQgMS40IDAgMCAwLTEuNDEgMS4zOTVjMCAuNzc1LjYzMiAxLjM4MiAxLjQxIDEuMzgyLjc4IDAgMS40MTItLjYwNyAxLjQxMi0xLjM4MmExLjQgMS40IDAgMCAwLTEuNDEyLTEuMzk1Wm0tLjI2NiAxLjI5di0uNDQ4aC4yNjFjLjE0OSAwIC4zMTYuMDQzLjMxNi4yMTYgMCAuMTktLjE4Ni4yMzItLjM0Ny4yMzJoLS4yM1ptLjg2LS4yMjdjMC0uMzM3LS4yOS0uNDYxLS41ODctLjQ2MWgtLjU1NnYxLjU3M2guMjgzdi0uNjU3aC4yMDVsLjM3Mi42NTdoLjM0N2wtLjQyOS0uNjg4Yy4yMjMtLjA0OS4zNjYtLjE5Ny4zNjYtLjQyNFpNODguNDUgNS43M2EyLjg3NCAyLjg3NCAwIDAgMCAyLjg4Ni0yLjg2NUEyLjg3NSAyLjg3NSAwIDAgMCA4OC40NSAwYTIuODc0IDIuODc0IDAgMCAwLTIuODg0IDIuODY1IDIuODc0IDIuODc0IDAgMCAwIDIuODg0IDIuODY0Wm0tNy43MzggMi40NzN2NC4yMDFoNS4zNTJ2MTQuNzczaDQuNzc0VjEyLjQwNGg1LjM1MVY4LjIwM0g4MC43MTJaTTM5LjA2MyA1LjcyOWEyLjg3NCAyLjg3NCAwIDAgMCAyLjg4NS0yLjg2NEEyLjg3NCAyLjg3NCAwIDAgMCAzOS4wNjMgMGEyLjg3NSAyLjg3NSAwIDAgMC0yLjg4NCAyLjg2NSAyLjg3NSAyLjg3NSAwIDAgMCAyLjg4NCAyLjg2NFptLTcuNzM4IDYuNjc1aDUuMzUydjE0Ljc3M2g0Ljc3M1YxMi40MDRoNS4zNTJWOC4yMDNIMzEuMzI1djQuMjAxWm00MS4yNyAxNC43NzNoNC43NzNWOC4yMTRoLTQuNzczdjE4Ljk2M1ptLTkuNjYtOC41MzNjMCAyLjUyOC0xLjQzNCA1LjEzNi00LjQ1NSA1LjEzNi0zLjA2MyAwLTMuNTgxLTIuODA0LTMuNTgxLTUuMDU3VjguMjE0aC00Ljc3M3YxMS44NTJjMCAzLjg3MyAyLjA2NyA3LjY2NCA3LjA0IDcuNjY0IDIuODI0IDAgNS4wOTItMS42OTggNS45MjctMy41OTVoLjA4djMuMDQyaDQuNTM1VjguMjE0aC00Ljc3M3YxMC40M1pNMjEuODUgNy42NmMtMi44MjMgMC01LjA5IDEuNy01LjkyNiAzLjU5NmgtLjA4VjguMjE0aC00LjUzM3YxOC45NjNoNC43NzF2LTEwLjQzYzAtMi41MjggMS40MzQtNS4xMzYgNC40NTYtNS4xMzYgMy4wNjMgMCAzLjU4IDIuODA2IDMuNTggNS4wNTh2MTAuNTA4aDQuNzczVjE1LjMyNWMwLTMuODcxLTIuMDY3LTcuNjY1LTcuMDQtNy42NjVaTTEuNjQ3IDI3LjE3N0g2LjQyVjguMjE0SDEuNjQ3djE4Ljk2M1oiIGZpbGw9IiMwMDc3QzUiLz48L3N2Zz4=);
+        width: 82px;
+        height: 24px;
+        background-position: center;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius-hosted-ui-navigation-wrapper {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 12px 30px 12px 30px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius-hosted-ui-navigation-wrapper #ius-hosted-ui-navigation-sign-in-button {
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        color: #0077c5;
+        border: 2px solid #0077c5;
+        border-radius: 4px;
+        background-color: #ffffff;
+        font-size: 1.4em;
+        padding: 0 10px;
+        height: 36px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius-hosted-ui-navigation-wrapper #ius-hosted-ui-navigation-sign-in-button:hover {
+        background-color: rgba(0, 119, 197, 0.25);
+        text-decoration: none;
+        border: 2px solid #0077c5;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius-hosted-ui-navigation-wrapper #ius-hosted-ui-navigation-sign-in-button:active {
+        background-color: rgba(0, 119, 197, 0.4);
+        text-decoration: none;
+        border: 2px solid #0077c5;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius-hosted-ui-navigation-wrapper #ius-hosted-ui-navigation-sign-in-button .ius-white-lock-img {
+        background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTE3IDEwVjdhNSA1IDAgMCAwLTUtNSA1LjAwNiA1LjAwNiAwIDAgMC01IDV2M2EzIDMgMCAwIDAtMyAzdjZhMyAzIDAgMCAwIDMgM2gxMGEzIDMgMCAwIDAgMy0zdi02YTMgMyAwIDAgMC0zLTNaTTkgN2EzIDMgMCAwIDEgMy0zIDMgMyAwIDAgMSAzIDN2M0g5VjdabTkgMTJhMSAxIDAgMCAxLTEgMUg3YTEgMSAwIDAgMS0xLTF2LTZhMSAxIDAgMCAxIDEtMWgxMGExIDEgMCAwIDEgMSAxdjZaIiBmaWxsPSIjMDA3N0M1Ii8+PHBhdGggZD0iTTEyIDEzYTEuOTk0IDEuOTk0IDAgMCAwLTEgMy43MjJWMThhMSAxIDAgMSAwIDIgMHYtMS4yODJBMS45OTQgMS45OTQgMCAwIDAgMTIgMTNaIiBmaWxsPSIjMDA3N0M1Ii8+PC9zdmc+) no-repeat;
+        background-size: contain;
+        height: 24px;
+        width: 24px;
+        margin-right: 4px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius-hosted-ui-main-footer {
+        background-color: #ffffff;
+        border-top: 1px solid #d4d7dc;
+        padding: 12px 0;
+        margin-top: 20px;
+        color: #6b6c72;
+      }
+
+      @media screen and (min-width: 768px) {
+        .visual-refresh-2021-height.ius-hosted-ui .ius-hosted-ui-main-footer {
+          position: absolute;
+          bottom: 0;
+        }
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius-hosted-ui-main-footer .visual-refresh-2021-footer-block {
+        display: block;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius-hosted-ui-main-footer .ius-hosted-ui-footer-container .ius-hostedui-footer-row,
+      .visual-refresh-2021-height.ius-hosted-ui .ius-hosted-ui-main-footer .visual-refresh-2021-footer-block {
+        margin-top: 12px;
+        margin-bottom: 12px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius-hosted-ui-main-footer a {
+        color: #0077c5;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius-hosted-ui-main-footer .ius-hosted-ui-footer-link-container {
+        padding-top: 0;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius-hosted-ui-main-footer .footer-end {
+        margin: 0px;
+        border-top: 1px solid #d4d7dc;
+        padding-top: 12px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius-hosted-ui-main-footer .ius-hostedui-footer-copyright {
+        color: #6b6c72;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui .ius-hosted-ui-main-footer hr.visual-refresh-2021-footer-block {
+        background-color: #d4d7dc;
+        height: 1px;
+        border: none;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui #ius-sign-up-widget .ius-hostedui-product-header-logo-list {
+        margin-bottom: 10px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui #ius-captcha-terms-of-use-text {
+        font-size: 10px;
+      }
+
+      .visual-refresh-2021-height.ius-hosted-ui #ius-captcha-tos-container-display {
+        display: none;
+      }
+
+      @media only screen and (min-width: 768px) {
+.Checkbox-icon-2ff7cf3 {
+  height: 16px;
+  width: 16px;
+}
+      }
